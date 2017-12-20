@@ -1,0 +1,11 @@
+spring boot 注解说明
+1.@SpringBootApplication --Spring
+2.@SpringBootConfiguration和@Configuration的功能一样，用来代替 xml的bean
+3.@EnableAutoConfiguration 自动加载jar的默认配置
+4.@ComponentScan 代替了<context:component-scan>
+5.@RestController -----Spring
+6.@Controller
+7.@ResponseBody
+8.@RequestMapping
+9.@Value 从配置文件读取变量
+10.ControllerAdvice 处理全局异常
