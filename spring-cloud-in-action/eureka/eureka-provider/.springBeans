@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.konghao.eureka.consumer.ProviderApplication</config>
+		<config>java:com.konghao.book.provider.ProviderApplication</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

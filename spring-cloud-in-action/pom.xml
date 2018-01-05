@@ -26,5 +26,6 @@
 	<modules>
 		<module>springboot</module>
 		<module>eureka</module>
+		<module>e-book</module>
 	</modules>
 </project>
