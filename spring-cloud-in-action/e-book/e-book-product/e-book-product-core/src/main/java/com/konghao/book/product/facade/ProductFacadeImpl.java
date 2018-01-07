@@ -12,6 +12,13 @@ import com.konghao.book.product.facade.ProductFacade;
 @RestController
 public class ProductFacadeImpl implements ProductFacade {
 	public List<Product> listProduct() {
+		System.out.println("###########################################");
+		try {
+			Thread.sleep(6*1000);
+		} catch (InterruptedException e) {
+			// TODO 自动生成的 catch 块
+			e.printStackTrace();
+		}
 		List<Product> list = new ArrayList<Product>();
 		list.add(new Product(1, "漫谈spring cloud与spring boot基础架构（微服务基础篇）"));
 		list.add(new Product(2, "漫谈spring cloud分布式服务架构（微服务进阶篇）"));
